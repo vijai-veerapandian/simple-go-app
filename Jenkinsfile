@@ -17,9 +17,7 @@ pipeline {
         
         stage('Unit Tests') {
             steps {
-                sh '''
-                    go version
-                '''
+                sh "go version"
             }
         }
     }
