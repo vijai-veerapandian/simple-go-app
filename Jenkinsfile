@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'vm01' }
     
     stages {
         stage('Checkout') {
