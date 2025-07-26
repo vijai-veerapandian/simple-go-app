@@ -17,7 +17,6 @@ pipeline {
         
         stage('Unit Tests') {
             steps {
-                export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
                 sh "go version"
             }
         }
