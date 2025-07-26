@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh '''
                     go version
-                    go test -v ./...
+                    go test -v
                 '''
             }
         }
