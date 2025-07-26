@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/vijai-veerapandian/simple-go-app.git', 
+                    url: 'https://github.com/vijai-veerapandian/simple-go-app.git' 
             }
         }
 
