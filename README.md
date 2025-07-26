@@ -33,4 +33,4 @@ echo $CR_PAT | docker login ghcr.io -u <github-username> --password-stdin
 docker push ghcr.io/<github-username>/simple-go-app:1.0.0
 ```
 
-###
+###EE#
