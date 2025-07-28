@@ -33,5 +33,9 @@ echo $CR_PAT | docker login ghcr.io -u <github-username> --password-stdin
 docker push ghcr.io/<github-username>/simple-go-app:1.0.0
 ```
 
-###EE#
-dasda
+### Jenkins CICD pipeline stuffs
+
+on the Github account. create a new personal access token (classic).
+
+![Image](./assets/2025-07-28-180322.jpg)
+
